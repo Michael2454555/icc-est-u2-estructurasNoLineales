@@ -61,4 +61,8 @@ public class BinaryTree{
         }
 
     }
+    public boolean findValue(int value){
+        return false;
+    }
+    
 }

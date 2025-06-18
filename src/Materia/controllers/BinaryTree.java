@@ -61,8 +61,20 @@ public class BinaryTree{
         }
 
     }
-    public boolean findValue(int value){
-        return false;
+     public boolean findValue(int value) {
+        return findValueRec(root, value);
+    }
+    
+    private boolean findValueRec(Node node, int value) {
+        if(node == null) {
+            return false;
+        }
+        if(value == node.getValue()) {
+            return true;
+        }
+        return value < node.getValue() 
+            ? findValueRec(node.getRefeizquierda(), value) 
+            : findValueRec(node.getRefederecha(), value);
     }
     
 }

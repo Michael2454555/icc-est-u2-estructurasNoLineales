@@ -31,20 +31,7 @@ Para ejecutar el proyecto:
 
 ## 🧑‍💻 Ejemplo de Entrada
 
-```plaintext
-Seleccione el método de ordenamiento:
-1. Burbuja
-2. Selección
-3. Inserción
-4. Burbuja Mejorado
-5. Salir
 
-¿Desea ver los pasos? (true/false):
-true
-
-¿Desea ordenar ascendentemente (A) o descendentemente (D)?:
-A
-```
 ## Imagen 
 ![alt text](image.png)
 
